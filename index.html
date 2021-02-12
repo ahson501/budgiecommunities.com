@@ -43,34 +43,28 @@ function pauseVid() {
   vid.pause(); 
 } 
 </script> 
-                <div class="bird-container">
- <div class="bird"></div>
-<div>
-   .bird {
-  background-image: url('bird.svg');
-  background-size: auto 100%;
-  width: 88px;
-  height: 125px;
-  will-change: background-position;
-}
-@keyframes fly-cycle {
-  100% {
-  background-position: -900px 0;
-  } 
-}             
-animation-name: fly-cycle;
-animation-timing-function: steps(10);
-animation-iteration-count: infinite;
-animation-duration: 1s;
-animation-delay: -0.5s;
-                .bird--one {
-  animation-duration: 1s;
-  animation-delay: -0.5s;
-}
-.bird--two {
-  animation-duration: 0.9s;
-  animation-delay: -0.75s;
-    }</div>
+                <div class="container">
+	
+	<h1>SVG Animated Birds</h1>
+	
+	<div class="bird-container bird-container--one">
+		<div class="bird bird--one"></div>
+	</div>
+	
+	<div class="bird-container bird-container--two">
+		<div class="bird bird--two"></div>
+	</div>
+	
+	<div class="bird-container bird-container--three">
+		<div class="bird bird--three"></div>
+	</div>
+	
+	<div class="bird-container bird-container--four">
+		<div class="bird bird--four"></div>
+	</div>
+	
+</div>
+
             </div>
         </body>
         </html>
