@@ -18,5 +18,5 @@ jobs:
 <<<<<<< HEAD
         run: surge ./ budgiecommunities.surge.sh --token ${{ secrets.BUDGIE_COMMUNITIES }}
 =======
-        run: surge ./ budgiecommunities.com.surge.sh --token ${{ secrets.BUDGIE_COMMUNITIES }}
+        run: surge ./ budgiecommunities.surge.sh --token ${{ secrets.BUDGIE_COMMUNITIES }}
 >>>>>>> c009a06b42692ff763e72325ec13efd7dcb2893b
