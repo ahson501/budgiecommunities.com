@@ -15,5 +15,5 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./ budgiecommunities.surge.sh --token ${{ secrets.BUDGIE_COMMUNITIES }}
+        run: surge ./ https://budgiecommunities.surge.sh --token ${{ secrets.BUDGIE_COMMUNITIES }}
 
